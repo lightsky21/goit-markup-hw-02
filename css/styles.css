@@ -7,10 +7,8 @@
   --primary-text-button-color: #ffffff;
   --secondary-text-button-color: #212121;
   --logo-header-color: #000000;
-  --logo-footer-color: #ffffff;
-  --logo-first-part-color: #2196f3;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
-  --button-filter-focus-coler: #ffffff;
+  --footer-background-color: #2f303a;
 }
 
 body {
@@ -37,10 +35,10 @@ body {
   color: var(--logo-header-color);
 }
 .logo-footer {
-  color: var(--logo-footer-color);
+  color: var(--primary-text-button-color);
 }
 .logo-first-part {
-  color: var(--logo-first-part-color);
+  color: var(--accent-color);
 }
 .btn {
   cursor: pointer;
@@ -97,6 +95,9 @@ body {
 }
 
 /* ------------------------hero---------------------- */
+.hero {
+  background-color: var(--footer-background-color);
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -148,6 +149,9 @@ body {
 }
 
 /* --------------footer----------------- */
+.footer {
+  background-color: var(--footer-background-color);
+}
 .address {
   font-style: inherit;
 }
@@ -183,7 +187,7 @@ body {
 
 .filter-btn:hover,
 .filter-btn:focus {
-  color: var(--button-filter-focus-coler);
+  color: var(--primary-text-button-color);
 }
 .our-projects-title {
   font-size: 18px;
