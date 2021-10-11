@@ -10,10 +10,13 @@
   --logo-footer-color: #ffffff;
   --logo-first-part-color: #2196f3;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --button-filter-focus-coler: #ffffff;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: var(--primary-text-color);
 }
 
 .link {
@@ -27,7 +30,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .logo-header {
@@ -39,6 +42,30 @@ body {
 .logo-first-part {
   color: var(--logo-first-part-color);
 }
+.btn {
+  cursor: pointer;
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 /*------------------- header---------------------------------- */
 
 .site-nav-link {
@@ -57,15 +84,15 @@ body {
 .site-nav-link:focus {
   color: var(--accent-color);
 }
-.header-contacts-item {
+.header-contacts-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-.header-contacts-item:focus,
-.header-contacts-item:hover {
+.header-contacts-link:focus,
+.header-contacts-link:hover {
   color: var(--accent-color);
 }
 
@@ -87,4 +114,86 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--primary-text-button-color);
+}
+
+/* -------------------peculiarities section---------------- */
+
+.peculiarities-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-title-color);
+}
+.peculiarities-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* --------------team section-------------------------------- */
+
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* --------------footer----------------- */
+.address {
+  font-style: inherit;
+}
+
+.address-text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.footer-contacts-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-contacts-color);
+}
+.footer-contacts-link:focus,
+.footer-contacts-link:hover {
+  color: var(--accent-color);
+}
+
+/* -----------------our-projects section----------------------- */
+.filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-button-color);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--primary-text-button-color);
+}
+.our-projects-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-color);
+}
+.our-projects-filter {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--button-filter-focus-coler);
 }
