@@ -183,7 +183,7 @@ body {
 
 .filter-btn:hover,
 .filter-btn:focus {
-  color: var(--primary-text-button-color);
+  color: var(--button-filter-focus-coler);
 }
 .our-projects-title {
   font-size: 18px;
@@ -195,5 +195,5 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(--button-filter-focus-coler);
+  color: var(--primary-text-color);
 }
