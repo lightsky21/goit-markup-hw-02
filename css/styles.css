@@ -3,7 +3,6 @@
   --primary-title-color: #ffffff;
   --secondary-title-color: #212121;
   --accent-color: #2196f3;
-  --secondary-text-color: #ffffff;
   --primary-text-button-color: #ffffff;
   --secondary-text-button-color: #212121;
   --logo-header-color: #000000;
@@ -160,7 +159,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: var(--primary-title-color);
 }
 
 .footer-contacts-link {
